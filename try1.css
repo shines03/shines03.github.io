@@ -1,0 +1,37 @@
+body{
+	text-align:center;
+	font-size:40px;
+	color:green;
+	font-family:tahoma;
+  animation: pulse 2s 0s;
+}
+a:hover {
+	color:rgb(192,192,192);
+}
+
+@keyframes pulse {
+  0% {
+    opacity: 0.1;
+  }
+  100%{
+	opacity: 1;
+  }
+}
+div{
+	display:block;
+	width:500px;
+	margin: 50px auto;
+	padding:7px;
+	text-align:center;
+	border:1px solid #00FF00;
+	background:-webkit-linear-gradient(top,#00FF00,#228B22,#00FF00);
+}
+div div{
+	display:block;
+	width:480px;
+	/*margin: 10px auto;*/
+	padding:7px;
+	text-align:center;
+	border:1px solid #00FF00;
+	background:white;
+}

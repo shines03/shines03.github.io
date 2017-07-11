@@ -1,0 +1,26 @@
+body{
+	background:#90EE90;
+	color:green;
+	font-family:tahoma;
+	font-weight:bold;
+	text-align:center;
+	font-size:30px;
+	font-weight:bold;
+	text-shadow:white 3px 3px 3px;
+}
+button{
+	box-sizing:border-box;
+	border:0px;
+	-webkit-border-radius: 7px;
+	background:green;
+}
+a{
+	width:150px;
+	font-family:times new roman;
+	font-size:30px;
+	color: violet;
+	text-decoration:none;
+}
+button:hover{
+	box-shadow:2px 0 7px 0 rgba(0, 0, 0, 0.28), 0 2px 10px 0 rgba(0, 0, 0, 0.4);
+}

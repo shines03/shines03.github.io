@@ -1,0 +1,25 @@
+body{
+	background-image:url("proceeding.jpg");
+	width:250px;
+	margin-left:500px;
+	margin-top:150px;
+	outline:0px;
+	text-align:center;
+	padding:45px;
+	color:green;
+	-webkit-border-radius:8px;
+	box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.28), 0 5px 5px 0 rgba(0, 0, 0, 0.4);
+	font-size:35px;
+	text-shadow: white 3px 3px 3px;
+}
+body a{
+	text-decoration:none;
+	font-family:tahoma;
+	color:green;
+	font-size:30px;
+	text-shadow: blue 3px 3px 3px;
+}
+body a:hover{
+	text-shadow: gray 3px 3px 3px;
+	font-size:35px;
+}

@@ -1,0 +1,41 @@
+body{
+	background:url(red.jpg);
+	color:red;
+	text-shadow:white 2px 2px 2px;
+	font-family:tahoma;
+	text-align:center;
+	font-size:40px;
+	padding-bottom:50px;
+}
+table{
+	width:80%;
+}
+table, th, tr, td{
+	opacity:0.95;
+	text-shadow:none;
+	color:black;
+	border:1px black solid;
+	padding: 10px;
+	text-align:center;
+	border-collapse:collapse;
+	font-family:tahoma;
+	font-weight:bold;
+}
+th{
+	font-family:sans-serif;
+	font-weight:bold;
+	font-size:25px;
+	background-color:red;
+	color:white;
+}
+tr:nth-child(odd)
+{
+	background-color:#D3D3D3;
+}
+tr:nth-child(even)
+{
+	background-color:white;
+}
+a{
+	text-decoration:none;
+}

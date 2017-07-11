@@ -1,0 +1,37 @@
+body{
+	background:url('river3.png');
+}
+body p{
+	
+	color:green;
+	text-align:center;
+	font-family:tahoma;
+	font-size:40px;
+	text-shadow: white 2px 2px 2px;
+}
+ul{
+	text-align:center;
+}
+li{
+	width:150px;
+	display:inline-block;
+	list-style:none;
+	-webkit-border-radius:7px;
+	font-size:30px;
+	margin-left:75px;
+	margin-right:75px;
+	text-align:center;
+	color: rgb(20,20,20);
+	background:-webkit-linear-gradient(top,white,#8DEEEE);
+	text-shadow:rgb(255,255,255) 2px 2px 2px;
+	font-weight:bold;
+	box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.28);
+}
+a{
+	text-decoration:none;
+}
+li:hover{
+		box-shadow:7px 0 15px 0 rgba(0, 0, 0, 0.28), 0 7px 15px 0 rgba(0, 0, 0, 0.4);
+		font-size:35px;
+}
+
